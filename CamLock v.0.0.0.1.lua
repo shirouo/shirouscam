@@ -420,12 +420,6 @@ RService.Heartbeat:Connect(
                         local TargetVel = AimlockTarget.Character[getgenv().Settings.Part.AimPart]
                         TargetVel.Velocity = Vec3(0, 0, 0)
                         TargetVel.AssemblyLinearVelocity = Vec3(0, 0, 0)
-                        game:GetService("StarterGui"):SetCore("SendNotification", {
-                        Title = "Shirou";
-                        Text = "Desync Detected.";
-                        Icon = "rbxassetid://12624498811";
-                        Duration = 5
-                        })
                     end
                 )
             end
