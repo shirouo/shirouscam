@@ -1,4 +1,4 @@
- if getgenv().script_key == "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" then
+if getgenv().script_key == "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" then
  
 -- // Locals
  
