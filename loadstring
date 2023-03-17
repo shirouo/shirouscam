@@ -1,0 +1,105 @@
+-- these are my settings! however you may edit them how you like! 🙂
+
+
+
+getgenv().script_key = "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY"
+
+------- Camlock -------
+
+getgenv().Settings = { Main = {
+    Enable = true,
+ 
+    HoldKey = false,
+    ToggleKey = true,
+        
+    UseKeyBoardKey = true,
+    KeyBoardKey = Enum.KeyCode.E,
+ 
+    UseMouseKey = false,
+    ThirdPerson = true,
+    FirstPerson = true,
+ 
+    AutoPingSets = true, -- autoprediction.
+ 
+    UseCircleRadius = true,
+    DisableOutSideCircle = false, -- also weird dont use it
+ 
+    UseShake = true,
+    ShakePower = 0.45,
+ 
+    CheckForWalls = true
+},
+
+------- Prediction -------
+
+Horizontal = {
+    PredictMovement = true, -- leave on or autoprediction/prediction wont work
+    PredictionVelocity = 0.17221418
+},
+
+------- AimParts -------
+
+Part = {
+    AimPart = "UpperTorso",
+    CheckIfJumpedAimPart = "LowerTorso",
+    CheckIfJumped = true,
+    GetClosestPart = false -- leave false its weird.
+},
+
+------- Different Checks. -------
+
+Check = {
+    CheckIfKo = true, -- This Is For Da Hood
+    DisableOnTargetDeath = true, -- disables when enemy dies.
+    DisableOnPlayerDeath = true -- disables when you die.
+},
+
+------- Smoothness for legit, -------
+
+Smooth = {
+    Smoothness = true,
+    SmoothnessAmount = 0.1,
+    SmoothMethod = Enum.EasingStyle.Circular,
+    SmoothMethodV2 = Enum.EasingDirection.InOut
+},
+
+------- Resolvers -------
+
+Resolver = {
+    UnderGround = true,
+    UseUnderGroundKeybind = false,
+    UnderGroundKey = Enum.KeyCode.K,
+    DetectDesync = true,
+    Detection = 75,
+ 
+    UseDetectDesyncKeybind = false,
+    DetectDesyncKey = Enum.KeyCode.L,
+    SendNotification = true
+},
+
+------- Visuals, Fov visibility -------
+
+Visual = {
+    Fov = false,
+    FovTransparency = 1,
+    FovThickness = 1,
+    FovColor = Color3.fromRGB(0, 0, 0),
+    FovRadius = 360
+},
+
+------- Memory/Ping Spoofer -------
+
+Spoofer = {
+    MemorySpoofer = false,
+    MemoryTabColor = Color3.fromRGB(211, 88, 33),
+    MemoryMost = 85000,
+    MemoryLeast = 80000,
+ 
+    PingSpoofer = false,
+    PingTabColor = Color3.fromRGB(211, 88, 33),
+    PingMost = 2000,
+    PingLeast = 1000
+    }
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shirouo/shirouscam/main/CamLock%20v.0.0.0.1.lua", true))()
