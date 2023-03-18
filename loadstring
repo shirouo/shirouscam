@@ -43,7 +43,7 @@ Part = {
     AimPart = "UpperTorso",
     CheckIfJumpedAimPart = "LowerTorso",
     CheckIfJumped = true,
-    GetClosestPart = false -- leave false its weird.
+    GetClosestPart = true -- change this if you like 1 part lock
 },
 
 ------- Different Checks. -------
