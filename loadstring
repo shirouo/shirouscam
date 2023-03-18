@@ -2,7 +2,7 @@
 
 
 
-getgenv().script_key = "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" -- dont change this
+getgenv().script_key = "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" --// dont change this
 
 ------- Camlock -------
 
@@ -19,10 +19,10 @@ getgenv().Settings = { Main = {
     ThirdPerson = true,
     FirstPerson = true,
  
-    AutoPingSets = true, -- autoprediction.
+    AutoPingSets = true, --// autoprediction.
  
     UseCircleRadius = true,
-    DisableOutSideCircle = false, -- also weird dont use it
+    DisableOutSideCircle = false, --// weird dont use it
  
     UseShake = true,
     ShakePower = 0.45,
@@ -33,7 +33,7 @@ getgenv().Settings = { Main = {
 ------- Prediction -------
 
 Horizontal = {
-    PredictMovement = true, -- leave on or autoprediction/prediction wont work
+    PredictMovement = true, --// leave on or autoprediction/prediction wont work
     PredictionVelocity = 0.17221418
 },
 
@@ -43,15 +43,15 @@ Part = {
     AimPart = "UpperTorso",
     CheckIfJumpedAimPart = "LowerTorso",
     CheckIfJumped = true,
-    GetClosestPart = true -- change this if you like 1 part lock
+    GetClosestPart = true --// change this if you like 1 part lock
 },
 
 ------- Different Checks. -------
 
 Check = {
     CheckIfKo = true, -- This Is For Da Hood
-    DisableOnTargetDeath = true, -- disables when enemy dies.
-    DisableOnPlayerDeath = true -- disables when you die.
+    DisableOnTargetDeath = true, --// disables when enemy dies.
+    DisableOnPlayerDeath = true --// disables when you die.
 },
 
 ------- Smoothness for legit, -------
