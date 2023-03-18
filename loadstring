@@ -2,7 +2,7 @@
 
 
 
-getgenv().script_key = "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY"
+getgenv().script_key = "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" -- dont change this
 
 ------- Camlock -------
 
