@@ -58,7 +58,7 @@ Check = {
 
 Smooth = {
     Smoothness = true,
-    SmoothnessAmount = 0.085,
+    SmoothnessAmount = 0.1,
     SmoothMethod = Enum.EasingStyle.Circular,
     SmoothMethodV2 = Enum.EasingDirection.InOut
 },
