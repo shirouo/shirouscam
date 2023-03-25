@@ -9,7 +9,7 @@ getgenv().script_key = "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" --// don
 getgenv().ShirouSettings = { Customize = {
     Enabled = true,
     Show_Fov = false,
-    KeyBind = Enum.KeyCode.E,
+    KeyBind = Enum.KeyCode.E, -- // When changing this, make sure "Enum.KeyCode." stays, change the letter at the end to change your bind.
     Auto_prediction = true,
     UseShake = true,
     ShakePower = 0.52,
