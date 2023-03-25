@@ -9,10 +9,11 @@ getgenv().script_key = "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" --// don
 getgenv().ShirouSettings = { Customize = {
     Enabled = true,
     Show_Fov = false,
+    Fov_Size = 150,
     KeyBind = Enum.KeyCode.E, -- // When changing this, make sure "Enum.KeyCode." stays, change the letter at the end to change your bind.
     Auto_prediction = true,
     UseShake = true,
-    ShakePower = 0.52,
+    ShakePower = 0.6,
     Smoothness = 0.085,
 
     Prediction = 0.173, -- // Main Prediction / Custom prediction will not work with Auto_prediction Enabled.
