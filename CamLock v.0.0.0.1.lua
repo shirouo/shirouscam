@@ -13,6 +13,7 @@ if getgenv().script_key == "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" then
             NearestHitPart = ShirouSettings.Customize.NearestHitPart,
             AimPart = ShirouSettings.Customize.AimPart,
             JumpAimPart = ShirouSettings.Customize.JumpAimPart,
+            Fov_Size = ShirouSettings.Customize.Fov_Size,
             HoldKey = false,
             ToggleKey = true,
             UseKeyBoardKey = true,
@@ -53,8 +54,7 @@ if getgenv().script_key == "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" then
         Visual = {
             FovTransparency = 1,
             FovThickness = 1,
-            FovColor = Color3.fromRGB(0, 0, 0),
-            FovRadius = 150      
+            FovColor = Color3.fromRGB(0, 0, 0)   
         }
     }
     
@@ -84,7 +84,7 @@ if getgenv().script_key == "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" then
     end
     Circle.Color = ShirouSettings.Visual.FovColor
     Circle.Visible = ShirouSettings.Customize.Show_Fov
-    Circle.Radius = ShirouSettings.Visual.FovRadius
+    Circle.Radius = ShirouSettings.Customize.Fov_Size
     Circle.Thickness = ShirouSettings.Visual.FovThickness
     Circle.Position = Vec2(Mouse.X, Mouse.Y + Inset)
     return (Circle)
