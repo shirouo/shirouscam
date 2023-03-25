@@ -13,7 +13,7 @@ getgenv().ShirouSettings = { Customize = {
     Auto_prediction = true,
     UseShake = true,
     ShakePower = 0.52,
-    Smoothness = 0.085, -- // Legitify, Lower = More legit , Higher = More Blatant.
+    Smoothness = 0.085,
 
     Prediction = 0.173, -- // Main Prediction / Custom prediction will not work with Auto_prediction Enabled.
 
