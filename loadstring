@@ -6,99 +6,21 @@ getgenv().script_key = "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" --// don
 
 ------- Camlock -------
 
-getgenv().Settings = { Main = {
-    Enable = true,
- 
-    HoldKey = false,
-    ToggleKey = true,
-        
-    UseKeyBoardKey = true,
-    KeyBoardKey = Enum.KeyCode.E,
- 
-    UseMouseKey = false,
-    ThirdPerson = true,
-    FirstPerson = true,
- 
-    AutoPingSets = true, --// autoprediction.
- 
-    UseCircleRadius = true,
-    DisableOutSideCircle = false, --// weird dont use it
- 
+getgenv().ShirouSettings = { Customize = {
+    Enabled = true,
+    Show_Fov = false,
+    KeyBind = Enum.KeyCode.E,
+    Auto_prediction = true,
     UseShake = true,
-    ShakePower = 0.45,
- 
-    CheckForWalls = true
-},
+    ShakePower = 0.52,
+    Smoothness = 0.085, -- // Legitify, Lower = More legit , Higher = More Blatant.
 
-------- Prediction -------
+    Prediction = 0.173, -- // Main Prediction / Custom prediction will not work with Auto_prediction Enabled.
 
-Horizontal = {
-    PredictMovement = true, --// leave on or autoprediction/prediction wont work
-    PredictionVelocity = 0.17221418
-},
+    NearestHitPart = true,
 
-------- AimParts -------
-
-Part = {
     AimPart = "UpperTorso",
-    CheckIfJumpedAimPart = "LowerTorso",
-    CheckIfJumped = true,
-    GetClosestPart = true --// change this if you like 1 part lock
-},
-
-------- Different Checks. -------
-
-Check = {
-    CheckIfKo = true, -- This Is For Da Hood
-    DisableOnTargetDeath = true, --// disables when enemy dies.
-    DisableOnPlayerDeath = true --// disables when you die.
-},
-
-------- Smoothness for legit, -------
-
-Smooth = {
-    Smoothness = true,
-    SmoothnessAmount = 0.1,
-    SmoothMethod = Enum.EasingStyle.Circular,
-    SmoothMethodV2 = Enum.EasingDirection.InOut
-},
-
-------- Resolvers -------
-
-Resolver = {
-    UnderGround = true,
-    UseUnderGroundKeybind = false,
-    UnderGroundKey = Enum.KeyCode.K,
-    DetectDesync = true,
-    Detection = 75,
- 
-    UseDetectDesyncKeybind = false,
-    DetectDesyncKey = Enum.KeyCode.L,
-    SendNotification = true
-},
-
-------- Visuals, Fov visibility -------
-
-Visual = {
-    Fov = false,
-    FovTransparency = 1,
-    FovThickness = 1,
-    FovColor = Color3.fromRGB(0, 0, 0),
-    FovRadius = 360
-},
-
-------- Memory/Ping Spoofer -------
-
-Spoofer = {
-    MemorySpoofer = false,
-    MemoryTabColor = Color3.fromRGB(211, 88, 33),
-    MemoryMost = 85000,
-    MemoryLeast = 80000,
- 
-    PingSpoofer = false,
-    PingTabColor = Color3.fromRGB(211, 88, 33),
-    PingMost = 2000,
-    PingLeast = 1000
+    JumpAimPart = "LowerTorso"
     }
 }
 
