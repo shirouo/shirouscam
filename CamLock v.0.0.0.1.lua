@@ -37,7 +37,7 @@ if getgenv().script_key == "ayvWJBsuKdJNsCntrPReSHIROUrsaUQgsAVdKBTMbrZLEY" then
         },
         Smooth = {
             EnabledSmoothness = true,
-            SmoothMethod = Enum.EasingStyle.Elastic,
+            SmoothMethod = Enum.EasingStyle.Circular,
             SmoothMethodV2 = Enum.EasingDirection.InOut      
         },
         Resolver = {
